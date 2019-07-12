@@ -14,6 +14,5 @@ class NewClientTest(unittest.TestCase):
         self.assertIn("PROJECT", self.browser.title)
 
 
-
 if __name__ == "__main__":
     unittest.main(warnings="ignore")
